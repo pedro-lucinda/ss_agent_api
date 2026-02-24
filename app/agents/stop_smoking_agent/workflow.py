@@ -1,9 +1,9 @@
 from langgraph.graph import StateGraph, END
-from app.agents.chef_agent.state import AgentState
-from app.agents.chef_agent.model import model_react
-from app.agents.chef_agent.nodes.tooll_node import tool_node
-from app.agents.chef_agent.edges.should_continue import should_continue
-from app.agents.chef_agent.nodes.call_model import call_model
+from app.agents.stop_smoking_agent.state import AgentState
+from app.agents.stop_smoking_agent.model import model_react
+from app.agents.stop_smoking_agent.nodes.tooll_node import tool_node
+from app.agents.stop_smoking_agent.edges.should_continue import should_continue
+from app.agents.stop_smoking_agent.nodes.call_model import call_model
 
 # Define a new graph
 workflow = StateGraph(AgentState)

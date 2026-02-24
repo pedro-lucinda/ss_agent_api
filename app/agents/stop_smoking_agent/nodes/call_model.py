@@ -1,5 +1,5 @@
-from app.agents.chef_agent.state import AgentState
-from app.agents.chef_agent.model import model_react
+from app.agents.stop_smoking_agent.state import AgentState
+from app.agents.stop_smoking_agent.model import model_react
 
 def call_model(state: AgentState):
     """Invoke the model with the current conversation state."""

@@ -1,4 +1,4 @@
-from app.agents.chef_agent.state import AgentState
+from app.agents.stop_smoking_agent.state import AgentState
 
 def should_continue(state: AgentState):
     """Determine whether to continue with tool use or end the conversation."""

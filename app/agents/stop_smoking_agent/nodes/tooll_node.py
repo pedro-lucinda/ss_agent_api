@@ -1,5 +1,5 @@
-from app.agents.chef_agent.state import AgentState
-from app.agents.chef_agent.tools import tools_by_name
+from app.agents.stop_smoking_agent.state import AgentState
+from app.agents.stop_smoking_agent.tools import tools_by_name
 from langchain_core.messages import ToolMessage
 import json
 

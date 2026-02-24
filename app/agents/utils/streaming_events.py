@@ -1,6 +1,6 @@
 import json
 from langchain_core.messages import HumanMessage
-from app.agents.chef_agent.workflow import graph
+from app.agents.stop_smoking_agent.workflow import graph
 
 
 async def _stream_events(message_text: str):

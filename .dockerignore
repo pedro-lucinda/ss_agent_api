@@ -1,0 +1,22 @@
+# Virtual env is platform-specific; uv creates it from lockfile in the image
+.venv/
+# Git and IDE
+.git/
+.gitignore
+.cursor/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+# Env (compose injects via env_file)
+.env
+.env.*
+!.env.example
+# Misc
+*.md
+.pytest_cache/
+.coverage
+htmlcov/
